@@ -7,7 +7,7 @@
     RUN apt-get update && apt-get install -y git
     
     # Clone your backend repo
-    RUN git clone https://github.com/klu2300031823/Skill-11_CICD.git .
+    RUN git clone https://github.com/klu2300031823/CICD_Skill-11_Frontend.git .
 
     RUN mvn clean package -DskipTests
 
